@@ -1,6 +1,6 @@
 {
-  "name": "sirautil",
-  "version": "0.0.0",
+  "name": "sirautil-docs",
+  "version": "1.0.0",
   "private": true,
   "license": "MIT",
   "scripts": {
