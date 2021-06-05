@@ -88,11 +88,6 @@ export default [
   exact: true,
 },
 {
-  path: '/markdown-page',
-  component: ComponentCreator('/markdown-page','be1'),
-  exact: true,
-},
-{
   path: '/docs',
   component: ComponentCreator('/docs','18a'),
   
