@@ -20,10 +20,10 @@ The main set of Beat Saber's dependencies are installed here. `PCAppInit` acts a
 
 `PCAppInit` is mainly for PC. There are different `AppInit` classes for every platform Beat Saber is available on. Beat Games split up the `AppInit` classes to have conditional installations for every platform.
 
-In `MainSystemsInit::Init()`, the most essential parts to the game are setup. This is called when the `AppInit` is first initializing AND when a *TODO: ADD REFERENCE TO INDEX* reload. 
+In `MainSystemsInit::Init()`, the most essential parts to the game are setup. This is called when the `AppInit` is first initializing AND whenever a [reload](../sira-index/modders-index#terminology) occurs. 
 * The game's settings are loaded and applied (for example, volume, resolution, graphics)
 
-When `MainSystemsInit::InstallBindings()` is called (after it's `Init()`), a great amount of important bindings are installed. This ranges from data models for keeping track of beatmaps, player data, avatars, etc, as well as helpers and utility classes like the `CachedMediaAsyncLoader` and the `TweeningManager`, and as well as platform specific things such as haptics and rich presence.
+When `MainSystemsInit::InstallBindings()` is called (after it's `Init()`), a great amount of important bindings are installed. This ranges from data models for keeping track of beatmaps, player data, avatars, etc, as well as helpers and utility classes like the `CachedMediaAsyncLoader` and the `TimeTweeningManager`, and as well as platform specific things such as haptics and rich presence.
 
 ### Transitioning to the next scene
 
