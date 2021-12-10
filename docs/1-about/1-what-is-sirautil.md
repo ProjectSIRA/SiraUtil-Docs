@@ -27,4 +27,4 @@ SiraUtil 1 released on **August 31st, 2020**. Some more things were added such a
 
 SiraUtil 2 was released on **October 23rd, 2020** after the Beat Saber 1.12 multiplayer update. It was much more in-depth with a rewritten Zenject API, exposers, mutators, short circuiters, sprite loaders, the web client, more localization features, score submission, the model provider system, and more. SiraUtil 2 got continual updates up until the release of the Hive project.
 
-SiraUtil 3 aims to be a complete rewrite of the internal and external systems to have an incredibly clean and well documented codebase alongside an even more friendly API to use.
+SiraUtil 3 aims to be a complete rewrite of the internal and external systems to have an incredibly clean and well documented codebase alongside an even more friendly API to use. It was released after the Beat Saber 1.19.0 update.
